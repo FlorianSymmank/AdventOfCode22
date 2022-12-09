@@ -1,3 +1,4 @@
+""" Solves Day Six of Advent of Code 2022 https://adventofcode.com/2022/day/6"""
 # --- Day 6: Tuning Trouble ---
 
 # The preparations are finally complete; you and the Elves leave camp on foot and
@@ -47,6 +48,7 @@
 #     zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw: first marker after character 11
 
 # How many characters need to be processed before the first start-of-packet marker is detected?
+
 
 def start_of_message(distinct_chars: int) -> int:
     """detects start of message indicated by amount of distinct_chars after another"""
